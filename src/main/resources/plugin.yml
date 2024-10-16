@@ -1,0 +1,7 @@
+name: PermDrivenRoles
+version: '1.0.0'
+main: com.imabanana80.permDrivenRoles.PermDrivenRoles
+api-version: '1.21'
+authors: [ Imabanana80 ]
+description: Custom role/rank displays that are permission driven
+website: https://imabanana80.com/
