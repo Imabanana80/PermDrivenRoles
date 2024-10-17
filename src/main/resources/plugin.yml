@@ -5,3 +5,7 @@ api-version: '1.21'
 authors: [ Imabanana80 ]
 description: Custom role/rank displays that are permission driven
 website: https://imabanana80.com/
+commands:
+  roles:
+    description: Manage perm driven roles
+    permission: PermDrivenRoles.manage

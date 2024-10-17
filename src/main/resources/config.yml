@@ -1,4 +1,5 @@
 # Roles in your permissions plugin should be permrole.<therolenamefrombelow>
 # {playername} replaces with the player's name
 roles:
-  default: "{playername}"
+  default:
+    display: "{playername}"
