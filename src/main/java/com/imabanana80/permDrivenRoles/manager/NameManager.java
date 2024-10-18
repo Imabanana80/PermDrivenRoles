@@ -17,7 +17,6 @@ public class NameManager {
         for (String permission : permissions) {
             if (!permission.startsWith("permrole.")){continue;}
             String role = permission.replaceFirst("permrole.", "");
-            System.out.println(role);
             String display = PermDrivenRoles.getInstance().getConfig().getString("roles." + role + ".display");
             String tab = PermDrivenRoles.getInstance().getConfig().getString("roles." + role + ".tab");
             if (display == null) {break;}
